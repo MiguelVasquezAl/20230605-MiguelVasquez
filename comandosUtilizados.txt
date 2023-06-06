@@ -1,0 +1,40 @@
+  507  mkdir 20230605-MiguelVasquez
+  508  cd 20230605-MiguelVasquez
+  509  git init
+  510  git status
+  511  touch comandos.txt main.js index.html
+  512  tree
+  513  git status
+  514  git add .
+  515  git commit -m "commit 01 MiguelVasquez"
+  516  git branch
+  517  git remote add origin https://github.com/MiguelVasquezAl/20230605-MiguelVasquez.git
+  518  git push -u origin main
+  519  git branch feature01
+  520  git checkout feature01
+  521  mkdir Terminal Hardware
+  522  tree
+  523  touch Terminal/resumen.txt Hardware/resumen.txt
+  524  tree
+  525  git status
+  526  git add .
+  527  git status
+  528  git commit -m "commit 02 MiguelVasquez"
+  529  git push -u origin feature01
+  530  git branch feature02
+  531  git checkout feature02
+  532  tree
+  533  nano Terminal/resumen.txt
+  534  tree
+  535  nano Hardware/resumen.txt
+  536  git status
+  537  git add .
+  538  git status
+  539  git commit -m "commit 03 MiguelVasquez"
+  540  git push -u origin feature02
+  541  git checkout main
+  542  tree
+  543  mv comandos.txt comandosUtilizados.txt
+  544  history
+  545  git add .
+  546  git push -u origin main
