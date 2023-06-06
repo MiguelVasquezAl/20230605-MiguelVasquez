@@ -1,0 +1,5 @@
+mkdir = sirve para crear carpetas.
+rm -r = sirve para borrar carpetas con archivos dentro.
+rm = sirve para borrar archivos.
+nano = para editar.
+touch = sirve para crear archivos.
